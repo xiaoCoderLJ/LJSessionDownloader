@@ -9,7 +9,11 @@
  -导入头文件
   `LJSessionDownloader.h`
   
-  -创建对象，一个URL对应一个downloader
+ -创建对象，一个URL对应一个downloader
+
+ -设置URL和文件储存路径，在下载进度block和下载完成block设置回调动作(也可不设置)
+
+ -调用start方法开始下载，suspend方法暂停。
 
 ##API
 
