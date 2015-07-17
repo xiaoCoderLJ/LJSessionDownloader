@@ -1,5 +1,5 @@
 # LJSessionDownloader
-基于NSURLSession的断点下载（支持离线后恢复）
+基于NSURLSession的断点下载（支持离线后恢复）,若果目标文件已存在会提示文件已下载。
 
 ##使用方法
  -将文件拖进工程
